@@ -10,3 +10,5 @@ export default defineConfig({
   ],
   base: '/clinica-esteticas/',
 })
+
+// Triggering automated deployment workflow
