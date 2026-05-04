@@ -36,7 +36,7 @@ export const Hero = () => {
           />
           <motion.div 
             style={{ 
-              backgroundImage: 'url("/assets/hero.webp")',
+              backgroundImage: `url("${import.meta.env.BASE_URL}assets/hero.webp")`,
               scale: imageScale,
               filter: imageBlur
             }}

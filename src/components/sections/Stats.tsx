@@ -63,7 +63,7 @@ export const Stats = () => {
                   <div className="w-2 h-2 rounded-full bg-primary animate-pulse" /> Assistência Robótica 4K
                 </div>
               </div>
-              <img src="/assets/robotic.webp" alt="Tecnologia Cirúrgica" className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-1000" />
+              <img src={`${import.meta.env.BASE_URL}assets/robotic.webp`} alt="Tecnologia Cirúrgica" className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-1000" />
             </div>
           </div>
           
